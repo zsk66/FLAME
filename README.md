@@ -9,9 +9,9 @@ Author: Shengkun Zhu, Jinshan Zeng, Sheng Wang, Yuan Sun, Xiaodong Li, Yuan Yao,
 | :----: | :----: | :----: | :----: |
 Mnist | 70,000 | [LeCun et al.](https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=4cccb7c5b2d59bc0b86914340c81b26dd4835140) | MLP
 Fmnist | 70,000 | [Xiao et al.](https://arxiv.org/pdf/1708.07747.pdf) | MLP |
-Mmnist | 58,954 | [Kaggle](https://www.kaggle.com/datasets/andrewmvd/medical-mnist) | CNN
+Mmnist | 58,954 | [Kaggle](https://www.kaggle.com/datasets/andrewmvd/medical-mnist) | CNN1
 Cifar10 | 60,000 | [Krizhevsky et al.](http://www.cs.utoronto.ca/~kriz/learning-features-2009-TR.pdf) | CNN
-Femnist | 382,705 | [Leaf](https://leaf.cmu.edu/) | CNN
+Femnist | 382,705 | [Leaf](https://leaf.cmu.edu/) | CNN2
 ## Start
 
 The default values for various parameters parsed to the experiment are given in `options.py`. Details are given on some of those parameters:
