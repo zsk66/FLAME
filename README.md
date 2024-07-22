@@ -15,7 +15,9 @@ Femnist | 382,705 | [Leaf](https://leaf.cmu.edu/) | CNN2
 ## Start
 
 The default values for various parameters parsed to the experiment are given in `options.py`. Details are given on some of those parameters:
-* `framework:` two personalied federated learnign frameworks, i.e., FLAME and pFedMe.
+* `framework:` five personalized federated learning frameworks.
+
+* `partition:` six data partitioning schemes.
 
 * `num_users:` number of users.
 
@@ -35,9 +37,9 @@ The default values for various parameters parsed to the experiment are given in 
 
 * `momentum:` sgd momentum, default 0.
 
-* `epoches:` number of communication rounds.
+* `epochs:` number of communication rounds.
 
-* `local_ep:` number of local iterations.
+* `local_ep:` the number of local iterations.
 
 * `local_bs:` local batch size.
 
@@ -49,8 +51,10 @@ The default values for various parameters parsed to the experiment are given in 
 
 * `rho:` hyperparameter in penalty term.
 
-* `iid:` data distribution, 0 for non iid.
+* `iid:` data distribution, 0 for non-iid.
 
 * `seed:` random seed.
 
-* `eta:` learning rate for global model in pFedMe.
+* `eta:` learning rate for the global model in pFedMe.
+
+* `eta2:` learning rate for the global model in ditto.
