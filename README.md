@@ -1,4 +1,4 @@
-# FLAME-master
+# FLAME
 This repo holds the source code and scripts for reproducing the key experiments of our paper:
 
 **"On ADMM in Heterogeneous Federated Learning: Personalization, Robustness, and Fairness".**
